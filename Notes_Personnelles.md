@@ -1,9 +1,12 @@
 # Notes Personnels
 
 ### Initial Set-Up
+
+Make sure Node.js is installed nad added to system PATH variables 
+
 1. Open the terminal and type  : npm create vite@latest
 2. Name the profect
-3. Set the project framework to : JaReactvaScript
+3. Set the project framework to : React
 4. Set the project variant to JavaScript
 5. Run the project with : 
 

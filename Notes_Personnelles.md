@@ -23,15 +23,28 @@ Then we need to take the 2 fonts that we install and introduce it to the project
 Go to the main.jsx file, then write :
 
 ```
-import @fontsource/roboto 
-import @fontsource/outfit
+import 'fontsource/roboto'
+import 'fontsource/outfit'
 ```
 
-There is multiple files that will be created for us, but we wont use most of them. So we can delete : 
-1. Delete vite.svg
-2. Delete assets porfolio
-3. Delete most of **the content** of App.css but we keep this structure :
+Multiple files that will be created for us, but most of them will not be used. Therefore, we can optionally delete the following files to startwith a clean structure : 
+1. vite.svg and react.svg
+2. Delete **the content** of App.css 
+3. Delete **the content** of index.css, but we keep this structure to start:
 ```
+import './App.css'
 
+function App() {
+
+  return (
+    <>
+      Hello world!
+    </>
+  )
+}
+export default App
 ```
-4. Delete **the content** of index.css
+4. Remove the content of index.css
+
+
+Then change the tile in **index.html**
